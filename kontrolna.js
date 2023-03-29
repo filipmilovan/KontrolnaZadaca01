@@ -8,6 +8,7 @@ function nepar() {
     };
 };
 
+console.log(nepar)
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Jesen";
