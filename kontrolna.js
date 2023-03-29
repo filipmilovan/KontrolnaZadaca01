@@ -1,12 +1,13 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje neparne brojeve od 0 do 100
-function nepar(
+function nepar() {
     for (let i = 0; i <= 100; i++) {
-    if (i % 2 != 0) {
-        console.log(i);
+        if (i % 2 != 0) {
+            console.log(i);
+        };
     };
-});
-//console.log(nepar)
+};
+console.log(nepar)
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
